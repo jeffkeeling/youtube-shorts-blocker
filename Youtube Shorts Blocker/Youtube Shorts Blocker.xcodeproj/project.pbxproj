@@ -1,0 +1,973 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1F0B929A2DC969D40081E14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B92992DC969D40081E14E /* AppDelegate.swift */; };
+		1F0B929C2DC969D40081E14E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B929B2DC969D40081E14E /* SceneDelegate.swift */; };
+		1F0B929F2DC969D40081E14E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B929D2DC969D40081E14E /* LaunchScreen.storyboard */; };
+		1F0B92A22DC969D40081E14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92A02DC969D40081E14E /* Main.storyboard */; };
+		1F0B92AB2DC969D40081E14E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B92AA2DC969D40081E14E /* AppDelegate.swift */; };
+		1F0B92AE2DC969D40081E14E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92AC2DC969D40081E14E /* Main.storyboard */; };
+		1F0B92B62DC969D40081E14E /* Youtube Shorts Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F0B92B52DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0B92C02DC969D40081E14E /* Youtube Shorts Blocker Extension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 1F0B92BF2DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		1F0B92C62DC969D40081E14E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92892DC969D40081E14E /* Main.html */; };
+		1F0B92C72DC969D40081E14E /* Main.html in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92892DC969D40081E14E /* Main.html */; };
+		1F0B92C82DC969D40081E14E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928B2DC969D40081E14E /* Icon.png */; };
+		1F0B92C92DC969D40081E14E /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928B2DC969D40081E14E /* Icon.png */; };
+		1F0B92CA2DC969D40081E14E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928C2DC969D40081E14E /* Style.css */; };
+		1F0B92CB2DC969D40081E14E /* Style.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928C2DC969D40081E14E /* Style.css */; };
+		1F0B92CC2DC969D40081E14E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928D2DC969D40081E14E /* Script.js */; };
+		1F0B92CD2DC969D40081E14E /* Script.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928D2DC969D40081E14E /* Script.js */; };
+		1F0B92CE2DC969D40081E14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B928E2DC969D40081E14E /* ViewController.swift */; };
+		1F0B92CF2DC969D40081E14E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B928E2DC969D40081E14E /* ViewController.swift */; };
+		1F0B92D02DC969D40081E14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928F2DC969D40081E14E /* Assets.xcassets */; };
+		1F0B92D12DC969D40081E14E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B928F2DC969D40081E14E /* Assets.xcassets */; };
+		1F0B92D22DC969D40081E14E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B92912DC969D40081E14E /* SafariWebExtensionHandler.swift */; };
+		1F0B92D32DC969D40081E14E /* SafariWebExtensionHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F0B92912DC969D40081E14E /* SafariWebExtensionHandler.swift */; };
+		1F0B92EA2DC969D40081E14E /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E52DC969D40081E14E /* styles.css */; };
+		1F0B92EB2DC969D40081E14E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E62DC969D40081E14E /* icons */; };
+		1F0B92EC2DC969D40081E14E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E72DC969D40081E14E /* manifest.json */; };
+		1F0B92ED2DC969D40081E14E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E82DC969D40081E14E /* content.js */; };
+		1F0B92EE2DC969D40081E14E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E92DC969D40081E14E /* LICENSE.txt */; };
+		1F0B92EF2DC969D40081E14E /* styles.css in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E52DC969D40081E14E /* styles.css */; };
+		1F0B92F02DC969D40081E14E /* icons in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E62DC969D40081E14E /* icons */; };
+		1F0B92F12DC969D40081E14E /* manifest.json in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E72DC969D40081E14E /* manifest.json */; };
+		1F0B92F22DC969D40081E14E /* content.js in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E82DC969D40081E14E /* content.js */; };
+		1F0B92F32DC969D40081E14E /* LICENSE.txt in Resources */ = {isa = PBXBuildFile; fileRef = 1F0B92E92DC969D40081E14E /* LICENSE.txt */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1F0B92B72DC969D40081E14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0B92832DC969D40081E14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0B92B42DC969D40081E14E;
+			remoteInfo = "Youtube Shorts Blocker Extension (iOS)";
+		};
+		1F0B92C12DC969D40081E14E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F0B92832DC969D40081E14E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F0B92BE2DC969D40081E14E;
+			remoteInfo = "Youtube Shorts Blocker Extension (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F0B92D92DC969D40081E14E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F0B92B62DC969D40081E14E /* Youtube Shorts Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92E02DC969D40081E14E /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				1F0B92C02DC969D40081E14E /* Youtube Shorts Blocker Extension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1F0B928A2DC969D40081E14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.html; name = Base; path = Base.lproj/Main.html; sourceTree = "<group>"; };
+		1F0B928B2DC969D40081E14E /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Icon.png; sourceTree = "<group>"; };
+		1F0B928C2DC969D40081E14E /* Style.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; path = Style.css; sourceTree = "<group>"; };
+		1F0B928D2DC969D40081E14E /* Script.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; path = Script.js; sourceTree = "<group>"; };
+		1F0B928E2DC969D40081E14E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		1F0B928F2DC969D40081E14E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1F0B92912DC969D40081E14E /* SafariWebExtensionHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariWebExtensionHandler.swift; sourceTree = "<group>"; };
+		1F0B92962DC969D40081E14E /* Youtube Shorts Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube Shorts Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B92992DC969D40081E14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F0B929B2DC969D40081E14E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		1F0B929E2DC969D40081E14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1F0B92A12DC969D40081E14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0B92A32DC969D40081E14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B92A82DC969D40081E14E /* Youtube Shorts Blocker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Youtube Shorts Blocker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B92AA2DC969D40081E14E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1F0B92AD2DC969D40081E14E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1F0B92AF2DC969D40081E14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B92B02DC969D40081E14E /* Youtube Shorts Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Youtube Shorts Blocker.entitlements"; sourceTree = "<group>"; };
+		1F0B92B52DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Youtube Shorts Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B92BA2DC969D40081E14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B92BF2DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "Youtube Shorts Blocker Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F0B92C42DC969D40081E14E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F0B92C52DC969D40081E14E /* Youtube Shorts Blocker.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "Youtube Shorts Blocker.entitlements"; sourceTree = "<group>"; };
+		1F0B92E52DC969D40081E14E /* styles.css */ = {isa = PBXFileReference; lastKnownFileType = text.css; name = styles.css; path = "../../chrome-firefox/styles.css"; sourceTree = "<group>"; };
+		1F0B92E62DC969D40081E14E /* icons */ = {isa = PBXFileReference; lastKnownFileType = folder; name = icons; path = "../../chrome-firefox/icons"; sourceTree = "<group>"; };
+		1F0B92E72DC969D40081E14E /* manifest.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; name = manifest.json; path = "../../chrome-firefox/manifest.json"; sourceTree = "<group>"; };
+		1F0B92E82DC969D40081E14E /* content.js */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.javascript; name = content.js; path = "../../chrome-firefox/content.js"; sourceTree = "<group>"; };
+		1F0B92E92DC969D40081E14E /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE.txt; path = "../../chrome-firefox/LICENSE.txt"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1F0B92932DC969D40081E14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92A52DC969D40081E14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92B22DC969D40081E14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92BC2DC969D40081E14E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F0B92822DC969D40081E14E = {
+			isa = PBXGroup;
+			children = (
+				1F0B92872DC969D40081E14E /* Shared (App) */,
+				1F0B92902DC969D40081E14E /* Shared (Extension) */,
+				1F0B92982DC969D40081E14E /* iOS (App) */,
+				1F0B92A92DC969D40081E14E /* macOS (App) */,
+				1F0B92B92DC969D40081E14E /* iOS (Extension) */,
+				1F0B92C32DC969D40081E14E /* macOS (Extension) */,
+				1F0B92972DC969D40081E14E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1F0B92872DC969D40081E14E /* Shared (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B928E2DC969D40081E14E /* ViewController.swift */,
+				1F0B928F2DC969D40081E14E /* Assets.xcassets */,
+				1F0B92882DC969D40081E14E /* Resources */,
+			);
+			path = "Shared (App)";
+			sourceTree = "<group>";
+		};
+		1F0B92882DC969D40081E14E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92892DC969D40081E14E /* Main.html */,
+				1F0B928B2DC969D40081E14E /* Icon.png */,
+				1F0B928C2DC969D40081E14E /* Style.css */,
+				1F0B928D2DC969D40081E14E /* Script.js */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		1F0B92902DC969D40081E14E /* Shared (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92E42DC969D40081E14E /* Resources */,
+				1F0B92912DC969D40081E14E /* SafariWebExtensionHandler.swift */,
+			);
+			path = "Shared (Extension)";
+			sourceTree = "<group>";
+		};
+		1F0B92972DC969D40081E14E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92962DC969D40081E14E /* Youtube Shorts Blocker.app */,
+				1F0B92A82DC969D40081E14E /* Youtube Shorts Blocker.app */,
+				1F0B92B52DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */,
+				1F0B92BF2DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1F0B92982DC969D40081E14E /* iOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92992DC969D40081E14E /* AppDelegate.swift */,
+				1F0B929B2DC969D40081E14E /* SceneDelegate.swift */,
+				1F0B929D2DC969D40081E14E /* LaunchScreen.storyboard */,
+				1F0B92A02DC969D40081E14E /* Main.storyboard */,
+				1F0B92A32DC969D40081E14E /* Info.plist */,
+			);
+			path = "iOS (App)";
+			sourceTree = "<group>";
+		};
+		1F0B92A92DC969D40081E14E /* macOS (App) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92AA2DC969D40081E14E /* AppDelegate.swift */,
+				1F0B92AC2DC969D40081E14E /* Main.storyboard */,
+				1F0B92AF2DC969D40081E14E /* Info.plist */,
+				1F0B92B02DC969D40081E14E /* Youtube Shorts Blocker.entitlements */,
+			);
+			path = "macOS (App)";
+			sourceTree = "<group>";
+		};
+		1F0B92B92DC969D40081E14E /* iOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92BA2DC969D40081E14E /* Info.plist */,
+			);
+			path = "iOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1F0B92C32DC969D40081E14E /* macOS (Extension) */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92C42DC969D40081E14E /* Info.plist */,
+				1F0B92C52DC969D40081E14E /* Youtube Shorts Blocker.entitlements */,
+			);
+			path = "macOS (Extension)";
+			sourceTree = "<group>";
+		};
+		1F0B92E42DC969D40081E14E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1F0B92E52DC969D40081E14E /* styles.css */,
+				1F0B92E62DC969D40081E14E /* icons */,
+				1F0B92E72DC969D40081E14E /* manifest.json */,
+				1F0B92E82DC969D40081E14E /* content.js */,
+				1F0B92E92DC969D40081E14E /* LICENSE.txt */,
+			);
+			name = Resources;
+			path = "Shared (Extension)";
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1F0B92952DC969D40081E14E /* Youtube Shorts Blocker (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B92DA2DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker (iOS)" */;
+			buildPhases = (
+				1F0B92922DC969D40081E14E /* Sources */,
+				1F0B92932DC969D40081E14E /* Frameworks */,
+				1F0B92942DC969D40081E14E /* Resources */,
+				1F0B92D92DC969D40081E14E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0B92B82DC969D40081E14E /* PBXTargetDependency */,
+			);
+			name = "Youtube Shorts Blocker (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Youtube Shorts Blocker (iOS)";
+			productReference = 1F0B92962DC969D40081E14E /* Youtube Shorts Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0B92A72DC969D40081E14E /* Youtube Shorts Blocker (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B92E12DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker (macOS)" */;
+			buildPhases = (
+				1F0B92A42DC969D40081E14E /* Sources */,
+				1F0B92A52DC969D40081E14E /* Frameworks */,
+				1F0B92A62DC969D40081E14E /* Resources */,
+				1F0B92E02DC969D40081E14E /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1F0B92C22DC969D40081E14E /* PBXTargetDependency */,
+			);
+			name = "Youtube Shorts Blocker (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Youtube Shorts Blocker (macOS)";
+			productReference = 1F0B92A82DC969D40081E14E /* Youtube Shorts Blocker.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F0B92B42DC969D40081E14E /* Youtube Shorts Blocker Extension (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B92D62DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker Extension (iOS)" */;
+			buildPhases = (
+				1F0B92B12DC969D40081E14E /* Sources */,
+				1F0B92B22DC969D40081E14E /* Frameworks */,
+				1F0B92B32DC969D40081E14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Youtube Shorts Blocker Extension (iOS)";
+			packageProductDependencies = (
+			);
+			productName = "Youtube Shorts Blocker Extension (iOS)";
+			productReference = 1F0B92B52DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		1F0B92BE2DC969D40081E14E /* Youtube Shorts Blocker Extension (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F0B92DD2DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker Extension (macOS)" */;
+			buildPhases = (
+				1F0B92BB2DC969D40081E14E /* Sources */,
+				1F0B92BC2DC969D40081E14E /* Frameworks */,
+				1F0B92BD2DC969D40081E14E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Youtube Shorts Blocker Extension (macOS)";
+			packageProductDependencies = (
+			);
+			productName = "Youtube Shorts Blocker Extension (macOS)";
+			productReference = 1F0B92BF2DC969D40081E14E /* Youtube Shorts Blocker Extension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1F0B92832DC969D40081E14E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1630;
+				LastUpgradeCheck = 1630;
+				TargetAttributes = {
+					1F0B92952DC969D40081E14E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F0B92A72DC969D40081E14E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F0B92B42DC969D40081E14E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+					1F0B92BE2DC969D40081E14E = {
+						CreatedOnToolsVersion = 16.3;
+					};
+				};
+			};
+			buildConfigurationList = 1F0B92862DC969D40081E14E /* Build configuration list for PBXProject "Youtube Shorts Blocker" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1F0B92822DC969D40081E14E;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 1F0B92972DC969D40081E14E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1F0B92952DC969D40081E14E /* Youtube Shorts Blocker (iOS) */,
+				1F0B92A72DC969D40081E14E /* Youtube Shorts Blocker (macOS) */,
+				1F0B92B42DC969D40081E14E /* Youtube Shorts Blocker Extension (iOS) */,
+				1F0B92BE2DC969D40081E14E /* Youtube Shorts Blocker Extension (macOS) */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1F0B92942DC969D40081E14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92C82DC969D40081E14E /* Icon.png in Resources */,
+				1F0B929F2DC969D40081E14E /* LaunchScreen.storyboard in Resources */,
+				1F0B92C62DC969D40081E14E /* Main.html in Resources */,
+				1F0B92CC2DC969D40081E14E /* Script.js in Resources */,
+				1F0B92D02DC969D40081E14E /* Assets.xcassets in Resources */,
+				1F0B92A22DC969D40081E14E /* Main.storyboard in Resources */,
+				1F0B92CA2DC969D40081E14E /* Style.css in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92A62DC969D40081E14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92C92DC969D40081E14E /* Icon.png in Resources */,
+				1F0B92CB2DC969D40081E14E /* Style.css in Resources */,
+				1F0B92AE2DC969D40081E14E /* Main.storyboard in Resources */,
+				1F0B92CD2DC969D40081E14E /* Script.js in Resources */,
+				1F0B92D12DC969D40081E14E /* Assets.xcassets in Resources */,
+				1F0B92C72DC969D40081E14E /* Main.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92B32DC969D40081E14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92F22DC969D40081E14E /* content.js in Resources */,
+				1F0B92EF2DC969D40081E14E /* styles.css in Resources */,
+				1F0B92F12DC969D40081E14E /* manifest.json in Resources */,
+				1F0B92F32DC969D40081E14E /* LICENSE.txt in Resources */,
+				1F0B92F02DC969D40081E14E /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92BD2DC969D40081E14E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92ED2DC969D40081E14E /* content.js in Resources */,
+				1F0B92EA2DC969D40081E14E /* styles.css in Resources */,
+				1F0B92EC2DC969D40081E14E /* manifest.json in Resources */,
+				1F0B92EE2DC969D40081E14E /* LICENSE.txt in Resources */,
+				1F0B92EB2DC969D40081E14E /* icons in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F0B92922DC969D40081E14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92CE2DC969D40081E14E /* ViewController.swift in Sources */,
+				1F0B929A2DC969D40081E14E /* AppDelegate.swift in Sources */,
+				1F0B929C2DC969D40081E14E /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92A42DC969D40081E14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92CF2DC969D40081E14E /* ViewController.swift in Sources */,
+				1F0B92AB2DC969D40081E14E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92B12DC969D40081E14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92D22DC969D40081E14E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F0B92BB2DC969D40081E14E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1F0B92D32DC969D40081E14E /* SafariWebExtensionHandler.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F0B92B82DC969D40081E14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0B92B42DC969D40081E14E /* Youtube Shorts Blocker Extension (iOS) */;
+			targetProxy = 1F0B92B72DC969D40081E14E /* PBXContainerItemProxy */;
+		};
+		1F0B92C22DC969D40081E14E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F0B92BE2DC969D40081E14E /* Youtube Shorts Blocker Extension (macOS) */;
+			targetProxy = 1F0B92C12DC969D40081E14E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1F0B92892DC969D40081E14E /* Main.html */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0B928A2DC969D40081E14E /* Base */,
+			);
+			name = Main.html;
+			sourceTree = "<group>";
+		};
+		1F0B929D2DC969D40081E14E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0B929E2DC969D40081E14E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0B92A02DC969D40081E14E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0B92A12DC969D40081E14E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1F0B92AC2DC969D40081E14E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1F0B92AD2DC969D40081E14E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1F0B92D42DC969D40081E14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1F0B92D52DC969D40081E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		1F0B92D72DC969D40081E14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker.Extension";
+				PRODUCT_NAME = "Youtube Shorts Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0B92D82DC969D40081E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker.Extension";
+				PRODUCT_NAME = "Youtube Shorts Blocker Extension";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0B92DB2DC969D40081E14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker";
+				PRODUCT_NAME = "Youtube Shorts Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1F0B92DC2DC969D40081E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "iOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker";
+				PRODUCT_NAME = "Youtube Shorts Blocker";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1F0B92DE2DC969D40081E14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Youtube Shorts Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker.Extension";
+				PRODUCT_NAME = "Youtube Shorts Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F0B92DF2DC969D40081E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = "macOS (Extension)/Youtube Shorts Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (Extension)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker Extension";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker.Extension";
+				PRODUCT_NAME = "Youtube Shorts Blocker Extension";
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		1F0B92E22DC969D40081E14E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Youtube Shorts Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker";
+				PRODUCT_NAME = "Youtube Shorts Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		1F0B92E32DC969D40081E14E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "macOS (App)/Youtube Shorts Blocker.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 66592HUJRV;
+				ENABLE_HARDENED_RUNTIME = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "macOS (App)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Youtube Shorts Blocker";
+				INFOPLIST_KEY_ITSAppUsesNonExemptEncryption = NO;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_NSMainStoryboardFile = Main;
+				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MARKETING_VERSION = 1.0;
+				OTHER_LDFLAGS = (
+					"-framework",
+					SafariServices,
+					"-framework",
+					WebKit,
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.yourCompany.Youtube-Shorts-Blocker";
+				PRODUCT_NAME = "Youtube Shorts Blocker";
+				REGISTER_APP_GROUPS = YES;
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1F0B92862DC969D40081E14E /* Build configuration list for PBXProject "Youtube Shorts Blocker" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B92D42DC969D40081E14E /* Debug */,
+				1F0B92D52DC969D40081E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B92D62DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker Extension (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B92D72DC969D40081E14E /* Debug */,
+				1F0B92D82DC969D40081E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B92DA2DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B92DB2DC969D40081E14E /* Debug */,
+				1F0B92DC2DC969D40081E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B92DD2DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker Extension (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B92DE2DC969D40081E14E /* Debug */,
+				1F0B92DF2DC969D40081E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F0B92E12DC969D40081E14E /* Build configuration list for PBXNativeTarget "Youtube Shorts Blocker (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F0B92E22DC969D40081E14E /* Debug */,
+				1F0B92E32DC969D40081E14E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 1F0B92832DC969D40081E14E /* Project object */;
+}
